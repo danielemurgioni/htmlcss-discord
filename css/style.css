@@ -37,12 +37,28 @@ header{
 
 /*main*/
 
+h1{
+    font-size: 40px;
+}
+
+h2{
+    font-size: 30px;
+}
+
 #jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     max-width: 1800px;
     min-height: 500px;
+}
+
+.download-section{
+    background-image: url(../img/stars.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 .col-1 {
@@ -52,12 +68,6 @@ header{
 .col-2,.col-3,.col-4,.col-5 {
     flex-grow: 1;
     border: 2px dashed white;
-}
-
-.download-section{
-    background-image: url(../img/stars.svg);
-    background-size: 50%;
-    background-repeat: no-repeat;
 }
 
 /*fine main*/
@@ -70,20 +80,14 @@ footer div.container{
 
 /*fine footer*/
 
-/*utlity-fonts*/
-
-body{
-    font-family: "Lato";
-}
-
-.color-white{
-    color: white;
-}
-
 /*utility*/
 
 .bg-blue{
     background-color: #255EE9;
+}
+
+.bg-lightblue{
+    background-color: #7289DA ;
 }
 
 .bg-darkgrey{
@@ -94,20 +98,22 @@ body{
     background-color: pink;
 }
 
+.bg-white{
+    background-color: white;
+}
+
 .bg-black{
     background-color: black;
 }
 
-.border{
-    border: 2px dashed black;
+.border-top{
+    border: 2px solid #7289DA;
 }
 
-.border-radius{
-    background-color: white;
+.button{
     border-radius: 20px;
     padding: 10px 15px;
 }
-
 
 /*utility-flex*/
 
@@ -150,6 +156,10 @@ body{
     margin: 10px;
 }
 
+.m10-b{
+    margin-bottom: 10px;
+}
+
 .m10-center{
     margin: 10px auto;
 }
@@ -159,6 +169,18 @@ body{
 }
 
 /*utility-text*/
+
+body{
+    font-family: "Lato";
+}
+
+.color-white{
+    color: white;
+}
+
+.line-height{
+    line-height: 23px;
+}
 
 .text-left{
     text-align: left;
