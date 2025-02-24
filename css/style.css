@@ -71,7 +71,7 @@ footer div.container{
 
 /*fine footer*/
 
-/*utility-background*/
+/*utility*/
 
 .bg-orange{
     background-color: orange;
@@ -118,6 +118,10 @@ footer div.container{
     border-radius: 15px;
 }
 
+.color-white{
+    color: white;
+}
+
 /*utility-flex*/
 
 .d-flex{
@@ -142,6 +146,11 @@ footer div.container{
 }
 
 /*utility-dimension*/
+
+.inline-block{
+    display: inline-block;
+}
+
 .h-200{
     height: 200px;
 }
@@ -166,12 +175,24 @@ footer div.container{
     padding: 5px;
 }
 
+.m-10{
+    margin: 10px;
+}
+
 .m-center{
     margin: 0 auto;
 }
 
 /*utility-text*/
 
+.text-left{
+    text-align: left;
+}
+
 .text-right{
     text-align: right;
+}
+
+.text-center{
+    text-align: center;
 }
