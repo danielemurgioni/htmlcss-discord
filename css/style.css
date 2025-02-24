@@ -61,6 +61,12 @@ header{
     border: 2px dashed white;
 }
 
+.download-section{
+    background-image: url(../img/stars.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
 /*fine main*/
 
 /*footer*/
