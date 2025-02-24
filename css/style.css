@@ -5,7 +5,7 @@
 }
 
 .container{
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -69,8 +69,8 @@ footer div.container{
     background-color: orange;
 }
 
-.bg-aquamarine{
-    background-color: aquamarine;
+.bg-header{
+    background-color: #255EE9;
 }
 
 .bg-blue{
@@ -103,6 +103,11 @@ footer div.container{
 
 .border{
     border: 2px dashed black;
+}
+
+.border-radius{
+    background-color: white;
+    border-radius: 15px;
 }
 
 /*utility-flex*/
@@ -147,6 +152,14 @@ footer div.container{
 
 .p-10{
     padding: 10px;
+}
+
+.p-5{
+    padding: 5px;
+}
+
+.m-center{
+    margin: 0 auto;
 }
 
 /*utility-text*/
